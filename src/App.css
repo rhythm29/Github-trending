@@ -1,0 +1,154 @@
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.list {
+    list-style-type: none;
+}
+.repoList:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 70%;
+  margin: 10px;
+  background: #999966;
+}
+.name{
+  color: blue;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.setPadding{
+  padding-right: 5px;
+}
+.description{
+  width: 70%;
+}
+
+.heading{
+  text-align: center;
+}
+.language{
+  text-align: right;
+}
+
+.languageList{
+  float: right;
+}
+
+.noUnderline{
+  text-decoration: none;
+}
+
+
+.langUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 40px 80px 80px 10px;
+}
+
+.langLl {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+.langLl:last-child {
+  border: none;
+}
+
+.logo{
+  height: 20px;
+  width:20px;
+}
+
+.langLl:hover {
+  /*font-size: 10px;*/
+  background: #f6f6f6;
+}
+
+/* ===== Select Box ===== */
+select {
+  font-size: 1rem;
+  display: inline-block;
+  margin: 3em 2em;
+  width: 350px;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  font-family: 'FontAwesome';
+  
+}
+
+select::before {
+  position: absolute;
+  content: '\f063';
+  font-family: 'FontAwesome';
+  font-size: 2em;
+  color: #FFF;
+  right: 20px;
+  top: calc(50% - 0.5em);
+}
+
+select.active::before {
+  transform: rotateX(-180deg);
+}
+
+option {
+  display: list-item;
+  font-family: 'Quicksand';
+  font-size: 1.0em;
+  color: #838e95;
+  padding: 0.5em 1em;
+  user-select: none;
+}
+
+option.selected::after {
+  display: inline;
+}
+
+option:hover {
+  background-color: #ebedef;
+}
+
+button {
+  color: #202129;
+  background-color: #edeeee;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+button:hover {
+  color: #202129;
+  background-color: #e2e2e2;
+  opacity: 1;
+}
+  
+button:active {
+  background-color: #d5d6d6;
+  opacity: 1;
+}
+.scroll{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container-1 {
+  width: 300px;
+  height: 34px;
+  background:  #e2e2e2;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.header{
+  float: right;
+}
